@@ -1,7 +1,6 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import User from "../models/User.js";
-import { json } from "express";
 
 //FONCTION POUR S'INCRIRE
 export const signup = (req, res, next) => {
