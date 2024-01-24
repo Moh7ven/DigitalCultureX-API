@@ -4,7 +4,7 @@ import uniqueValidator from "mongoose-unique-validator";
 let userSchema = mongoose.Schema({
   nom: {
     type: String,
-    required: [true, "Veuillez entrez votre nom ! "],
+    required: [true, "Veuillez entrer votre nom ! "],
   },
   prenom: {
     type: String,
